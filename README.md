@@ -11,7 +11,7 @@ Installation and testing
 
 To compile and run as a test, open the code and define the symbol "testing". This will enable the compilation to the testing code i.e. it defines the "main" procedure.
 
-Makre sure that you have installed the pigpio library.
+Make sure that you have installed the pigpio library.
 
 To compile: gcc aht20.c -lpigpio -o testing
 To test, as root, ./testing
