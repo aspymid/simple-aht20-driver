@@ -1,4 +1,4 @@
-# simpleaht20
+# simple aht20 driver
 Contains and aht20 driver written in "C"
 
 The AHT20 when coupled with a BMP280 for Bosch are a good replacement for the BME280 that is hard to find or expensive at the time I wrote this driver. It is possible to buy for a good price a breakout board that contains both chips.
