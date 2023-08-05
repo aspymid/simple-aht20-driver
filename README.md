@@ -5,7 +5,7 @@ The humidity and temperature sensor AHT20 by Asair, coupled with a BMP280 from B
 
 The code works for me. Use at your own risk. I do not accept any responsibility related to this code and procedures. It is provided as is with no guarantee or warranty what so ever.
 
-Positive comments and suggestions are welcomed.
+Positive/constructive comments and suggestions are welcomed.
 
 Installation and testing
 
