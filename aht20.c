@@ -39,7 +39,7 @@ void aht20_measure(float * temperature, float * humidity)
         unsigned char str[8];
         unsigned char status;
 
-        // loop in case it is occupied elseware
+        // loop in case it is occupied elsewhere 
         while (gpioInitialise() < 0) {
                 perror("gpioInitialise failed: "); 
                 sleep(1);
