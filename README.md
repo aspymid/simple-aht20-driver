@@ -12,12 +12,14 @@ Installation and testing
 To compile and run as a test, open the code and define the symbol "testing". This will enable the compilation to the testing code i.e. it defines the "main" procedure.
 
 Prerequisite:
-  -linux on a Raspberry Pi
-  -a correctly connected aht20 device on the default i2c bus.
-  -pigpio library
+  - linux on a Raspberry Pi
+  
+  - a correctly connected aht20 device on the default i2c bus.
+  
+  - pigpio library
 
 To compile: gcc aht20.c -lpigpio -o testing
 
 To test, as root: ./testing
 
-The folloing is the relevent datasheet : http://www.aosong.com/userfiles/files/media/Data%20Sheet%20AHT20.pdf
+The following is the relevant datasheet : http://www.aosong.com/userfiles/files/media/Data%20Sheet%20AHT20.pdf
